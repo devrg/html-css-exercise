@@ -1,0 +1,106 @@
+body{
+		background-color: #C1C13B;
+}
+
+h1{
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+
+a{
+	display: block;
+	border-style: solid;
+	width: 50px;
+	padding: 20px;
+	font-family: Comic Sans MS;
+	height: 30px;
+	text-align: justify;
+}
+
+div.menu{
+		text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li.menu{
+		display: inline-block;
+}
+
+a.Transitions{
+		padding: 0px 40px;
+		text-decoration: none;
+		background: #3C33FF ;
+		color: #FFFFFF;
+		transition-duration: 0.3s;
+		transition-delay: 0.2s;
+}
+
+a.Transitions:Hover{
+	padding: 40px;
+	color: #FFFFFF;
+	background: #6DD7F1;
+}
+
+p.text{
+	font-family: Comic Sans MS;
+	text-align: right;
+	text-shadow: 1px 1px #9E9E92  ;
+}
+div.text{
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	background-color: #F2DC8A ;
+	background-image: url("spongebob.jpg");
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	height:200px;
+	box-sizing: content-box;
+}
+h2.text{
+	font-family: Comic Sans MS;
+	text-align: right;
+}
+div.video{
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	background-color: #F2DC8A ;
+	background-image: url("patrick.png");
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	height:200px;
+	box-sizing: border-box;
+}
+
+div.videowrapper{
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	background-color: #F2DC8A ;
+	text-align: center;
+	position: relative;
+	/*padding-bottom: 56.25%; /* 16:9*/ 
+	/*padding-top: 25px;*/
+}
+div.more{
+	outline-style: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	background-color: #F2DC8A ;
+	background-image: url("squid.png");
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	height:200px;
+	box-sizing: content-box;
+}
+footer{
+	background-color: #F2DC8A ;
+	font-family: Segoe UI;
+	text-align: center;
+	box-sizing: content-box;
+	text-shadow: 0.5px 0.5px #9E9E92  ;
+}

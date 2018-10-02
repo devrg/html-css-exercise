@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(to bottom right,#323634,#38439E  );
+		}
+		.wrapper{
+			display:block;
+			width: 30%;
+			margin: 0 auto;
+		}
+
+		.wrapper > div {
+			background-color: #4286f4;
+			background-image: linear-gradient(to bottom right,#12D3D9,#12D96A);
+			font-family: 'Montserrat', sans-serif;
+		}
+		.details{
+			position: center;
+		}
+
+		p{
+			padding-right: 20px;
+			padding-left: 20px;
+			font-style: bold;
+			font-size: 16px;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		input{
+			margin-left: 20px;
+			margin-right: 20px;
+			height:2em;
+			width:90%;
+			font-style: italic;
+		}
+
+		textarea{
+			margin-left: 20px;
+			width:90%;
+		}
+
+		button{
+			background-color: #4CAF50; /* Green */
+		    border: none;
+		    color: white;
+		    padding: 15px 32px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+			margin-left: 35%;
+			margin-right: 30%;
+			margin-bottom: 20px;
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		h1{
+			text-align: center;
+		}
+
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div class = wrapper>
+		<div>
+			<h1>Contact Us</h1>
+			<div class = form>
+				<form class = details>
+					<p>Enter Your Name: </p><input type="text"  name="Name" placeholder="Your name" required>
+					<p> Telephone number: </p><input type="text"  name="Phone" placeholder="Your number" required>
+					<p> Email: </p><input type="text" name="mail" placeholder="Your Email" required">
+					<p>Message: </p> <textarea class = "box" name="comment" rows="10" cols="20"></textarea> <br>
+					<button class = "submission"> Submit</button>
+				</form>
+			</div>
+		</div>
+</body>
+</html>
